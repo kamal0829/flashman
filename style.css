@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-image: url(images/bg2.jpg);
+  background-position: center;
+}
+
+header {
+  background-color: chartreuse;
+  color:black;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: black;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.search-box, .bus-list, form {
+  background: white;
+  margin: 40px auto;
+  padding: 20px;
+  width: 60%;
+  box-shadow: 0 0 10px #ccc;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button, .btn {
+  background-color: red;
+  color:black;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.bus-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.bus-code {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.bus-post {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.seats {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+}
+
+.seat {
+  padding: 15px;
+  background: #ddd;
+}
